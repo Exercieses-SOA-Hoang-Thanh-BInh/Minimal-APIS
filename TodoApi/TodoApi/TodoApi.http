@@ -1,0 +1,185 @@
+﻿@TodoApi_HostAddress = https://localhost:7160
+
+POST {{TodoApi_HostAddress}}/todoitems
+
+###
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  //Todo
+}
+
+###
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  
+  "name": "walk dog",
+  "isComplete": true
+
+
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/complete
+
+###
+
+@id=0
+DELETE {{TodoApi_HostAddress}}/todoitems/{{id}}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/{{id}}
+
+###
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+    "name": "walk dog",
+  "isComplete": true
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  //Todo
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/complete
+
+###
+
+DELETE {{TodoApi_HostAddress}}/todoitems/{{id}}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/{{id}}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+ {
+  "name": "walk dog Test Put Method",
+  "isComplete": true
+}
+}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+  //Todo
+}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+  //Todo
+}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+  "name": "walk dog Test Put Method",
+  "isComplete": true
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  //Todo
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/2
+
+###
+
+DELETE {{TodoApi_HostAddress}}/todoitems/1
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/2
+Content-Type: application/json
+
+{
+  {
+  "name": "walk dog",
+  "isComplete": true
+}
+}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/2
+Content-Type: application/json
+
+{
+ {
+  "name": "walk dog Test Put Method",
+  "isComplete": true
+}
+}
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/2
+Content-Type: application/json
+
+{
+ 
+
+}
+
+###
